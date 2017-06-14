@@ -1,2 +1,3 @@
-# BatteryAnalyzer
-Electronic project to analyze batteries.
+# BatteryAnalyzer - Hardware
+
+Here we'll put the Schematics and the Layout.
