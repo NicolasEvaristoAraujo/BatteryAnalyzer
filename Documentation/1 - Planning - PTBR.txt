@@ -1,0 +1,37 @@
+Projeto - Battery Analyzer
+
+1 - Objetivo:
+
+    Este projeto se propõe a desenvolver uma plataforma de hardware e software para realizar a análise de descarga controlada de baterias,
+    a fim de caracterizar seu comportamento.
+
+2 - Motivação:
+
+    O tempo de vida de uma bateria se altera sensivelmente dependendo da demanda de carga aplicada sobre ela. Quando utilizado em equipamentos
+    móveis, conhecer a durabilidade da bateria para o consumo que se deseja é imperativo. Se torna importante ter uma ferramenta capas de
+    fazer essa análise.
+
+3 - Definições:
+
+    Algumas premissas devem ser definidas para a continuidade do projeto. Definições de tecnologia que guiarão a direção para cada ponto
+    do projeto.
+
+    3.1 - Quimica:
+
+        Deseja-se analisar as pilhas e baterias mais comuns de mercado. Não se vê motivos de não se testar baterias recarregáveis, quando essa
+        não exigir modificação significativa no circuito. Entende-se como base os seguintes dispositivos:
+
+        - Bateria Alcalina AA Clássica  (LR06)
+        - Bateria Alcalina AAA Clássica (LR03)
+        - Bateria Recarregável NiMH AA
+        - Bateria Recarregável NiMH AAA
+        - Bateria de Lítium CR2032
+
+    3.2 - Realização do teste:
+
+        O equipamento realizará a descarga da bateria através de uma fonte de corrente controlada. Essa fonte de corrente deve ser capaz de drenar
+        valores de corrente em um range que atenda aos testes das baterias selecionadas, além de possuir uma granularidade na precisão coerente para
+        atender aos resultados comparativos esperados.
+
+        Através de uma interface de comunicação, deverá receber os parâmetros de testes e aplicar à parte analógica. As medidas serão enviadas ao
+        PC, que fará o log e a análise dos resultados.
